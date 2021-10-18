@@ -10,6 +10,7 @@ public class UsingThrows {
         }catch (Exception e){
             System.out.println("Entrada inválida");
 
+            // ajuda a descobrir onde está o erro
             e.printStackTrace();
         }
 

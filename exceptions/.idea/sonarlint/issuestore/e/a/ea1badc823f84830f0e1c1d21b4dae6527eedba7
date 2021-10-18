@@ -1,0 +1,10 @@
+
+B
+java:S1181"%Catch Exception instead of Throwable.(ÒáÈ°8ûÆÔŠÉ/
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¬¾‰ö
+S	java:S106"9Replace this use of System.out or System.err by a logger.(…ÓÕ¬ûÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(èðä–úÿÿÿÿ
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¿¤ãýøÿÿÿÿ8ÿÆÔŠÉ/
+]	java:S125"<This block of commented-out lines of code should be removed.(ªï÷ùÿÿÿÿ8Ç”ÖŠÉ/
+0
+java:S1220""Move this file to a named package.
