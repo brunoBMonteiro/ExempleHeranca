@@ -20,8 +20,8 @@ public class ExceptionFinally {
             finally {
                 System.out.println("Essa linha é impressa sempre após o try ou catch");
             }
-
-
         }
+
+
     }
 }
