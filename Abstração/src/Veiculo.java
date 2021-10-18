@@ -1,16 +1,8 @@
-public  class Veiculo {
-    int ano;
-    String cor;
+public abstract class Veiculo {
 
-    void ligar() {
-        System.out.println("Carro ligado");
-    }
+    public abstract void ligar();
 
-    void desligar() {
-        System.out.println("Carro desligado");
-    }
+    public abstract void desligar();
 
-    void acelerar() {
-        System.out.println("Vruuuuummmmmmm!");
-    }
+    public abstract void acelerar();
 }

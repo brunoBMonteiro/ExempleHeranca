@@ -1,15 +1,14 @@
-public class Fusca {
-    public static void main(String[] args){
-        Veiculo fusca = new Veiculo();
+public class Fusca extends Veiculo{
 
-        fusca.ano = 1974;
-        fusca.cor = "Azul";
+    public void ligar(){
+        System.out.println("Ligado");
+    }
 
-        System.out.println("Carro: Fusca");
-        System.out.println("Ano: " + fusca.ano);
-        System.out.println("Ano: " + fusca.cor);
-        fusca.ligar();
-        fusca.acelerar();
-        fusca.desligar();
+    public void desligar(){
+        System.out.println("Motor desligado");
+    }
+
+    public void acelerar(){
+        System.out.println("Vruummmm");
     }
 }

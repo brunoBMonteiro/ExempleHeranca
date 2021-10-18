@@ -1,14 +1,15 @@
-public class Ferrari {
-    public static void main(String[] args){
-        Veiculo ferrari = new Veiculo();
+public class Ferrari extends Veiculo{
 
-        ferrari.ano = 2014;
-        ferrari.cor = "Vermelho";
-
-        System.out.println("Carro: Ferrari");
-        System.out.println("Ano: " + ferrari.ano);
-        System.out.println("Ano: " + ferrari.cor);
-        ferrari.ligar();
-        ferrari.acelerar();
+    public void ligar(){
+        System.out.println("Ligado");
     }
+
+    public void desligar(){
+        System.out.println("Motor desligado");
+    }
+
+    public void acelerar(){
+        System.out.println("Vruummmm");
+    }
+
 }
