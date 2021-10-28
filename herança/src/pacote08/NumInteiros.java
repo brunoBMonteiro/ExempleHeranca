@@ -13,14 +13,4 @@ public class NumInteiros {
     public double soma(double num1, double num2){
         return num1 + num2;
     }
-
-    public int soma(int[] vetoresInteiros){
-        int total= 0;
-
-        for(int i = 0; i < vetoresInteiros.length; i++){
-            total += vetoresInteiros[i];
-        }
-
-        return total;
-    }
 }

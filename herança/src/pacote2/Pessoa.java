@@ -61,6 +61,8 @@ public abstract class Pessoa {
         this.casa = casa;
     }
 
+
+
     public abstract String obterEtiquetaEndereco();
 
     public abstract void imprimirEtiquetaEndereco();

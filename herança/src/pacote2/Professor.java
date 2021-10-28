@@ -31,6 +31,7 @@ public class Professor extends Pessoa {
         return 0;
     }
 
+    //Sobreescrita
     public String obterEtiquetaEndereco(){
         String s = "Endereço do professor: ";
         s += this.getEndereco();
